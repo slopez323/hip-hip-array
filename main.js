@@ -204,6 +204,9 @@ console.log(dinosaursString)
 // Challenge 14
 // Use .reverse to reverse the dinosaur array and then log out the original array. .reverse DOES change the original array.
 
+console.log("CHALLENGE 14:")
+dinosaurs.reverse()
+console.log(dinosaurs)
 
 // Challenge 15
 // Use .concat to combine the following two arrays into a NEW array you make (.concat RETURNS an array). Then console.log out each value of that new array individually. Now console.log both the primaries and secondaries arrays, noting that .concat does NOT mutate the original arrays.
