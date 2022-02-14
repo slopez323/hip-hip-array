@@ -47,6 +47,15 @@ while (count2 >= 0){
 // Console.log out only the even numbers in the following array.
 const positiveNumbers = [5, 2, 13, 17, 4, 102, 3000];
 
+count3 = 0
+
+while (count3 !== positiveNumbers.length){
+  if (positiveNumbers[count3] % 2 === 0){
+    console.log(positiveNumbers[count3])
+  }
+  count3++
+}
+
 
 // Challenge 4
 // Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four total printings.
