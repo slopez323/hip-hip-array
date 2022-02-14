@@ -23,7 +23,7 @@ const students = [
   'Andy'
 ];
 
-count1 = 0
+let count1 = 0
 
 while (count1 !== students.length){
   console.log(students[count1])
@@ -35,7 +35,7 @@ while (count1 !== students.length){
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
 const grades = [100, 80, 110, 75, 83, 64];
 
-count2 = grades.length - 1
+let count2 = grades.length - 1
 
 while (count2 >= 0){
   console.log(grades[count2])
@@ -47,7 +47,7 @@ while (count2 >= 0){
 // Console.log out only the even numbers in the following array.
 const positiveNumbers = [5, 2, 13, 17, 4, 102, 3000];
 
-count3 = 0
+let count3 = 0
 
 while (count3 !== positiveNumbers.length){
   if (positiveNumbers[count3] % 2 === 0){
@@ -60,6 +60,15 @@ while (count3 !== positiveNumbers.length){
 // Challenge 4
 // Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four total printings.
 const mixedSignNumbers = [3, 15, 14, -2, -3, -8, -103, 4];
+
+let count4 = 0
+
+while (count4 !== mixedSignNumbers.length){
+  if (mixedSignNumbers[count4] % 2 === 0){
+    console.log(mixedSignNumbers[count4])
+  }
+  count4++
+}
 
 
 // Challenge 5
