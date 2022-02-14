@@ -196,6 +196,10 @@ while (count12 !== dinosaurs.length){
 // Challenge 13
 // Use .join to change the dinosaur strings from the above array into one string with a '*' string as the "separator". Then console.log out that string.
 
+console.log("CHALLENGE 13:")
+let dinosaursString = dinosaurs.join(" * ")
+console.log(dinosaursString)
+
 
 // Challenge 14
 // Use .reverse to reverse the dinosaur array and then log out the original array. .reverse DOES change the original array.
