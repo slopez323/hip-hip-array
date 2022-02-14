@@ -23,10 +23,24 @@ const students = [
   'Andy'
 ];
 
+count1 = 0
+
+while (count1 !== students.length){
+  console.log(students[count1])
+  count1++
+}
+
 
 // Challenge 2
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
 const grades = [100, 80, 110, 75, 83, 64];
+
+count2 = grades.length - 1
+
+while (count2 >= 0){
+  console.log(grades[count2])
+  count2 -= 1
+}
 
 
 // Challenge 3
