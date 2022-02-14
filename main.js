@@ -23,6 +23,7 @@ const students = [
   'Andy'
 ];
 
+console.log("CHALLENGE 1:")
 let count1 = 0
 
 while (count1 !== students.length){
@@ -35,6 +36,7 @@ while (count1 !== students.length){
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
 const grades = [100, 80, 110, 75, 83, 64];
 
+console.log("CHALLENGE 2:")
 let count2 = grades.length - 1
 
 while (count2 >= 0){
@@ -47,6 +49,7 @@ while (count2 >= 0){
 // Console.log out only the even numbers in the following array.
 const positiveNumbers = [5, 2, 13, 17, 4, 102, 3000];
 
+console.log("CHALLENGE 3:")
 let count3 = 0
 
 while (count3 !== positiveNumbers.length){
@@ -61,6 +64,7 @@ while (count3 !== positiveNumbers.length){
 // Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four total printings.
 const mixedSignNumbers = [3, 15, 14, -2, -3, -8, -103, 4];
 
+console.log("CHALLENGE 4:")
 let count4 = 0
 
 while (count4 !== mixedSignNumbers.length){
@@ -76,6 +80,7 @@ while (count4 !== mixedSignNumbers.length){
 // const symmetricalCapitals = ['A', 'H', 'I', 'M', 'O', 'T', 'U', 'V', 'W', 'X', 'Y'];
 const symmetricalCapitals = ['I', 'M', 'O', 'T', 'U', 'V', 'W', 'X'];
 
+console.log("CHALLENGE 5:")
 let count5 = 0
 
 while (count5 !== symmetricalCapitals.length){
@@ -88,6 +93,7 @@ while (count5 !== symmetricalCapitals.length){
 // const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
 const fibonacciNumbers = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34];
 
+console.log("CHALLENGE 6:")
 let count6 = 0
 
 while (count6 !== fibonacciNumbers.length){
@@ -101,6 +107,7 @@ while (count6 !== fibonacciNumbers.length){
 
 const newArray = [11, 22, 33, 44, 55]
 
+console.log("CHALLENGE 7:")
 let count7 = 0
 
 while (count7 !== newArray.length){
@@ -115,6 +122,7 @@ const emptyArray = []
 emptyArray.push("A", "B", "C")
 emptyArray.unshift(1, 2)
 
+console.log("CHALLENGE 8:")
 let count8 = 0
 
 while (count8 !== emptyArray.length){
@@ -125,6 +133,7 @@ while (count8 !== emptyArray.length){
 // Challenge 9
 // Loop through the `students` array from Challenge 1, starting at index 3 and ending at index 10 (INCLUSIVE), logging out each value individually.
 
+console.log("CHALLENGE 9:")
 let count9 = 3
 
 while (count9 <= 10){
@@ -137,6 +146,8 @@ while (count9 <= 10){
 // Loop through the `students` array from Challenge 1, making a COPY of the array, starting at index 3 and ending at index 10 (INCLUSIVE). This is very similar to string building; create a new array, loop through the old one, and put values from the original in the new one. Then log out each value of the copy indivudally.
 
 const studentsCopy = []
+
+console.log("CHALLENGE 10:")
 let count10 = 3
 
 while (count10 <= 10){
@@ -157,6 +168,7 @@ while (count10 !== studentsCopy.length){
 
 const studentsSlice = students.slice(3,11)
 
+console.log("CHALLENGE 11:")
 let count11 = 0
 while (count11 !== studentsSlice.length){
   console.log(studentsSlice[count11])
@@ -173,6 +185,13 @@ while (count11 !== students.length){
 // Pull the items at indices 4-6 (inclusive) from the following array using .splice (NOT .slice!), then console.log out each item from the ORIGINAL array. Note that .splice DOES change the original array.
 const dinosaurs = ['Velociraptor', 'T-Rex', 'Stegosaurus', 'Triceratops', 'Dimetrodon', 'Allosaur', 'Spinosaurus', 'Gigantosaur']
 
+console.log("CHALLENGE 12:")
+dinosaurs.splice(4,3)
+let count12 = 0
+while (count12 !== dinosaurs.length){
+  console.log(dinosaurs[count12])
+  count12++
+}
 
 // Challenge 13
 // Use .join to change the dinosaur strings from the above array into one string with a '*' string as the "separator". Then console.log out that string.
