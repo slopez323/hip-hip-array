@@ -212,3 +212,16 @@ console.log(dinosaurs)
 // Use .concat to combine the following two arrays into a NEW array you make (.concat RETURNS an array). Then console.log out each value of that new array individually. Now console.log both the primaries and secondaries arrays, noting that .concat does NOT mutate the original arrays.
 const primaries = ['red', 'yellow', 'blue'];
 const secondaries = ['orange', 'green', 'purple'];
+
+console.log("CHALLENGE 15:")
+
+const concat = primaries.concat(secondaries)
+
+count15 = 0
+while (count15 !== concat.length){
+  console.log(concat[count15])
+  count15++
+}
+
+console.log(primaries)
+console.log(secondaries)
