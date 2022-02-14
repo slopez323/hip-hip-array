@@ -125,6 +125,13 @@ while (count8 !== emptyArray.length){
 // Challenge 9
 // Loop through the `students` array from Challenge 1, starting at index 3 and ending at index 10 (INCLUSIVE), logging out each value individually.
 
+let count9 = 3
+
+while (count9 <= 10){
+  console.log(students[count9])
+  count9++
+}
+
 
 // Challenge 10
 // Loop through the `students` array from Challenge 1, making a COPY of the array, starting at index 3 and ending at index 10 (INCLUSIVE). This is very similar to string building; create a new array, loop through the old one, and put values from the original in the new one. Then log out each value of the copy indivudally.
