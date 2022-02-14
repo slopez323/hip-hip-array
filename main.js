@@ -85,7 +85,15 @@ while (count5 !== symmetricalCapitals.length){
 
 // Challenge 6
 // Add a value (your choice!) to the start of the following array and two values (of your choice) to the end simply by adding them in the following line, and then console.log out each value individually.
-const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
+// const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
+const fibonacciNumbers = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34];
+
+let count6 = 0
+
+while (count6 !== fibonacciNumbers.length){
+  console.log(fibonacciNumbers[count6])
+  count6++
+}
 
 
 // Challenge 7
