@@ -43,7 +43,7 @@ while (count2 >= 0){
   console.log(grades[count2])
   count2 -= 1
 }
-
+// ^ not using reverse yet
 
 // Challenge 3
 // Console.log out only the even numbers in the following array.
