@@ -111,6 +111,16 @@ while (count7 !== newArray.length){
 // Challenge 8
 // Make a new EMPTY array and fill it with five values of your choice using BOTH .push AND .unshift, and then console.log out each value individually.
 
+const emptyArray = []
+emptyArray.push("A", "B", "C")
+emptyArray.unshift(1, 2)
+
+let count8 = 0
+
+while (count8 !== emptyArray.length){
+  console.log(emptyArray[count8])
+  count8++
+}
 
 // Challenge 9
 // Loop through the `students` array from Challenge 1, starting at index 3 and ending at index 10 (INCLUSIVE), logging out each value individually.
