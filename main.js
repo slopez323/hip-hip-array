@@ -136,6 +136,21 @@ while (count9 <= 10){
 // Challenge 10
 // Loop through the `students` array from Challenge 1, making a COPY of the array, starting at index 3 and ending at index 10 (INCLUSIVE). This is very similar to string building; create a new array, loop through the old one, and put values from the original in the new one. Then log out each value of the copy indivudally.
 
+const studentsCopy = []
+let count10 = 3
+
+while (count10 <= 10){
+  studentsCopy.push(students[count10])
+  count10++
+}
+
+count10 = 0
+while (count10 !== studentsCopy.length){
+  console.log(studentsCopy[count10])
+  count10++
+}
+
+
 
 // Challenge 11
 // Make a COPY of the `students` array *using .slice*, starting at index 3 and ending at index 10 (INCLUSIVE), then log out each value of the copy individually. THEN log out each value of the original array. Notice that the original array didn't get any values taken out of it, because `slice` does NOT modify the original array.
